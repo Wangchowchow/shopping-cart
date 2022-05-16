@@ -1,4 +1,4 @@
-const Home = () => {
+function Home() {
     return (
         <div className="home-page">
             <h1>LOVE YOUR DOGGO</h1>
