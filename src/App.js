@@ -1,5 +1,5 @@
 import React from "react";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import Home from "./components/Home";
@@ -48,11 +48,9 @@ function App() {
         setCart([]);
     }
 
-    useEffect(() => { }, [cart]);
-
     return (
         <BrowserRouter>
-            <Nav></Nav>
+            <Nav cartLength={cart.length}></Nav>
             <Routes>
                 <Route path="/" element={<Home></Home>}></Route>
                 <Route path="/products" element={<Products add={add}></Products>}></Route>
