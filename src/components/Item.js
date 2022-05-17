@@ -8,10 +8,11 @@ function Item({ name, price, src, add }) {
         setQuantity((quantity+1));
     };
     const decrease = () => {
-        setQuantity((quantity-1));
+        if (quantity === 1) setQuantity(1);
+        else setQuantity((quantity-1));
     };
     const addToCart = () => {
-        const item = { name, price, quantity};
+        const item = { name, price, quantity, src };
         add(item);
     };
 
@@ -19,7 +20,7 @@ function Item({ name, price, src, add }) {
         <div className="item-container">
             <h3>{name}</h3>
             <img src={src} alt={name}></img>
-            <h4>{price}</h4>
+            <h4>${price}</h4>
             <div>
                 <button onClick={addToCart}>Add to Cart</button>
                 <button onClick={decrease}>-</button>
