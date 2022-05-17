@@ -6,7 +6,7 @@ function CartItem({ src, name, price, quantity, remove }) {
             <h3>{name}</h3>
             <img src={src} alt={name}></img>
             <p>${ price } x { quantity }</p>
-            <button onClick={remove(name)}>Remove</button>
+            <button onClick={() => remove(name)}>Remove</button>
         </div>
     );
 };
