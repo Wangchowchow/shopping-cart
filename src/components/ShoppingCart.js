@@ -1,8 +1,8 @@
 import React from "react";
-
 import CartItem from "./CartItem";
+import { Link } from "react-router-dom";
 
-function ShoppingCart({ items, remove }) {
+function ShoppingCart({ items, remove, emptyCart }) {
     let total = 0;
 
     for(let i = 0; i < items.length; i++) {
@@ -26,8 +26,8 @@ function ShoppingCart({ items, remove }) {
                         ></CartItem>
                 ))}
             </div>
-            <p>Total: {total}</p>
-            <button>Purchase</button>
+            <p>Total: ${total}</p>
+            <Link to="/"><button onClick={() => emptyCart()}>Purchase</button></Link>
         </div>
     )
 }
