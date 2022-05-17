@@ -8,8 +8,7 @@ import dogBrush from "../assets/dogbrush.jpeg";
 import dogCollar from "../assets/dogcollar.webp";
 import dogHouse from "../assets/doghouse.jpg";
 import dogLeash from "../assets/dogleash.jpg";
-import dogSofa from "../assets/dogsofa.jpg"
-
+import dogSofa from "../assets/dogsofa.jpg";
 
 function Products({ add }) {
     return (
