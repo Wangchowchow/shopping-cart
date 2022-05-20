@@ -22,10 +22,14 @@ function Item({ name, price, src, add }) {
             <img src={src} alt={name}></img>
             <h4>${price}</h4>
             <div>
-                <button onClick={addToCart}>Add to Cart</button>
-                <button onClick={decrease}>-</button>
-                <span>{quantity}</span>
-                <button onClick={increase}>+</button>
+                <div>
+                    <button onClick={addToCart}>Add to Cart</button>
+                </div>
+                <div>
+                    <button onClick={decrease}>-</button>
+                    <span>{quantity}</span>
+                    <button onClick={increase}>+</button>
+                </div>
             </div>
         </div>
     )
