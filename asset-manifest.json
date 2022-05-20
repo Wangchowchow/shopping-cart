@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/shopping-cart/static/css/main.ba34a9d8.css",
+    "main.js": "/shopping-cart/static/js/main.625b5fc4.js",
+    "static/media/siberianhusky.jpeg": "/shopping-cart/static/media/siberianhusky.56ead4f8f9f50ce48940.jpeg",
+    "static/media/itim.ttf": "/shopping-cart/static/media/itim.38b1e6579a4ae98f4318.ttf",
+    "static/media/Pacifico-Regular.ttf": "/shopping-cart/static/media/Pacifico-Regular.c0d735fc04154e03a691.ttf",
+    "static/media/doghouse.jpg": "/shopping-cart/static/media/doghouse.745721ee9bba11375c2e.jpg",
+    "static/media/dogleash.jpg": "/shopping-cart/static/media/dogleash.9aed94fa00538505443a.jpg",
+    "static/media/dogbrush.jpeg": "/shopping-cart/static/media/dogbrush.56e4fea408a4be2571f7.jpeg",
+    "static/media/dogcollar.webp": "/shopping-cart/static/media/dogcollar.e53c74547fd645b8646e.webp",
+    "static/media/dogbackground.webp": "/shopping-cart/static/media/dogbackground.1f570d8a5e1c8e78dc20.webp",
+    "static/media/dogsofa.jpg": "/shopping-cart/static/media/dogsofa.063dec8dc6be96b21e39.jpg",
+    "static/media/dogbowl.jpg": "/shopping-cart/static/media/dogbowl.c48fce4d22f0e94ce434.jpg",
+    "static/media/dogbone.jpeg": "/shopping-cart/static/media/dogbone.e7c9ecd46c6e8b17502b.jpeg",
+    "index.html": "/shopping-cart/index.html",
+    "main.ba34a9d8.css.map": "/shopping-cart/static/css/main.ba34a9d8.css.map",
+    "main.625b5fc4.js.map": "/shopping-cart/static/js/main.625b5fc4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ba34a9d8.css",
+    "static/js/main.625b5fc4.js"
+  ]
+}
