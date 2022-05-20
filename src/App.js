@@ -1,6 +1,6 @@
 import React from "react";
 import { useState } from "react";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 
 import Home from "./components/Home";
 import Products from "./components/Products";
@@ -49,14 +49,14 @@ function App() {
     }
 
     return (
-        <BrowserRouter>
+        <HashRouter>
             <Nav cartLength={cart.length}></Nav>
             <Routes>
                 <Route path="/" element={<Home></Home>}></Route>
                 <Route path="/products" element={<Products add={add}></Products>}></Route>
                 <Route path="/shopping-cart" element={<ShoppingCart items={cart} remove={remove} emptyCart={emptyCart}></ShoppingCart>}></Route>
             </Routes>
-        </BrowserRouter>
+        </HashRouter>
     )
 }
 
