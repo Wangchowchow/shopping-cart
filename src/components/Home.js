@@ -11,7 +11,7 @@ function Home() {
             <h2>Show affection to your beloved doggo!</h2>
             <p>One stop solution for all your doggo needs</p>
             <p>Note: Best deal ends today, free shipping with no minimum spend.</p>
-            <Link to="/products">Start Shopping</Link>
+            <button><Link to="/products">Start Shopping</Link></button>
         </div>
     )
 }

@@ -27,7 +27,7 @@ function ShoppingCart({ items, remove, emptyCart }) {
                 ))}
             </div>
             <p>Total: ${total}</p>
-            <Link to="/"><button onClick={() => emptyCart()}>Purchase</button></Link>
+            <button onClick={() => emptyCart()}><Link to="/">Purchase</Link></button>
         </div>
     )
 }
